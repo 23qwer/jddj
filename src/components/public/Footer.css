@@ -1,0 +1,88 @@
+.footer{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+.footer a{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    color: #555;
+    height: 100%;
+}
+.footer a .adiv span:nth-of-type(1){
+    display: inline-block;
+    width: 100%;
+    height: 31px;
+}
+.footer a .adiv span:nth-of-type(2){
+    display: inline-block;
+    width: 100%;
+}
+.footimg1{
+    background-image: url('../../assets/img/nav4.png');
+    background-repeat: no-repeat;
+    background-size: 36px 900px;
+}
+.footimg12{
+    background-position: 19px -383px;
+}
+.footimg11{
+    background-position: 19px -9px;
+}
+
+.footimg2{
+    background-image: url('../../assets/img/nav4.png');
+    background-repeat: no-repeat;
+    background-size: 36px 900px;
+}
+.footimg22{
+    background-position: 19px -455px;
+}
+.footimg21{
+    background-position: 19px -82px;
+}
+
+.footimg3{
+    background-image: url('../../assets/img/nav4.png');
+    background-repeat: no-repeat;
+    background-size: 36px 900px;
+}
+.footimg32{
+    background-position: 19px -533px;
+}
+.footimg31{
+    background-position: 14px -155px;
+}
+
+.footimg4{
+    background-image: url('../../assets/img/nav4.png');
+    background-repeat: no-repeat;
+    background-size: 36px 900px;
+}
+.footimg42{
+    background-position: 19px -608px;
+}
+.footimg41{
+    background-position: 19px -230px;
+}
+
+.footimg5{
+    background-image: url('../../assets/img/nav4.png');
+    background-repeat: no-repeat;
+    background-size: 36px 900px;
+}
+.footimg52{
+    background-position: 19px -683px;
+}
+.footimg51{
+    background-position: 19px -308px;
+}
+.cc{
+    color: #39ac69;
+}
+.cd{
+    color: black;
+}

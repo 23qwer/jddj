@@ -1,0 +1,156 @@
+.homecontainer .nav {
+    background-image: url('../../assets/img/index_icon_address.png');
+    height:50px;
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+.homecontainer .nav .leftnav{
+    float: left;
+    width: 50%;
+}
+.homecontainer .nav .leftnav span:nth-of-type(1){
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding-left: 20px;
+    background-image: url('../../assets/img/index_icon_locate.png');
+    background-repeat: no-repeat;
+    background-size: 15px 20px;
+    background-position: 0 15px;
+    margin-left: 20px;
+}
+.homecontainer .nav .leftnav span:nth-of-type(2){
+    display: inline-block;
+    width: 12px;
+    line-height: 50px;
+    height: 9px;
+    background-image: url('../../assets/img/index_icon_down.png');
+    margin-left: 2px;
+}
+.homecontainer .nav .rightnav{
+    text-align: right;
+    float: right;
+    width: 50%;
+    height: 50px;
+}
+.homecontainer .nav .rightnav span:nth-of-type(1){
+    line-height: 50px;
+    display: inline-block;
+    width: 20px;
+    height: 50px;
+    background-image: url('../../assets//img/index_icon_message.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 15px;
+}
+.homecontainer .nav .rightnav span:nth-of-type(2){
+    line-height: 50px;
+    display: inline-block;
+    width: 27px;
+    height: 50px;
+    background-image: url('../../assets//img//index_icon24.png');
+    background-position: -5px -63px;
+    background-size: 30px 490px;
+    margin-left: 5px;
+    display: none;
+}
+.homecontainer .homeSecond{
+    margin-top: 50px;
+    background-image: url('../../assets/img/index_icon_address.png');
+    height:180px;
+    text-align: center;
+}
+.homecontainer .homeSecond .searchdiv{
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 25px;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    background-color: white;
+    
+    font-size: 18px;
+}
+.homecontainer .homeSecond .searchdiv span:nth-of-type(1){
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 60px;
+    vertical-align: center;
+    background-image: url('../../assets//img//index_icon24.png');
+    background-position: 0px 84px;
+    background-size: 30px 490px;
+}
+.homecontainer .homeSecond .titlespan{
+    margin-left: 10px;
+    
+    color: white;
+}
+.aaa{
+    margin-top: 5px;
+}
+.homecontainer .homeSecond img{
+    width: 100%;
+}
+.homecontainer .middletitle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.homecontainer .middletitle .titlecell{
+    display: inline-block;
+    color: black;
+    width: 20%;
+    text-align: center;
+}
+.homecontainer .middletitle .titlecell img{
+    width: 50px;
+    height: 50px;
+}
+.homecontainer .lunbotu .lunbotucell{
+    display: inline-block;
+    margin-top: 5px;
+}
+.homecontainer .lunbotu .lunbotucell img{
+    height: 100px;
+}
+.homecontainer .imgnav1{
+    display: flex;
+}
+.homecontainer .imgnav1 .imgnav1cell{
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+}
+.homecontainer .imgnav1 .imgnav1cell img{
+    width: 100%;
+}
+.homecontainer .imgnav2{
+    display: flex;
+}
+.homecontainer .imgnav2 .imgnav2cell{
+    
+    display: inline-block;
+    width: 25%;
+    margin-top: 10px;
+    text-align: center;
+}
+.homecontainer .imgnav2 .imgnav2cell p:nth-of-type(1){
+    color: black;
+    font-size: 18px;
+    margin: 0;
+}
+.homecontainer .imgnav2 .imgnav2cell p:nth-of-type(2){
+    color: red;
+    font-size: 15px;
+    margin: 0;
+}
+.homecontainer .imgnav2 .imgnav2cell img{
+    width: 70px;
+}
