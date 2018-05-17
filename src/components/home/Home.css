@@ -64,6 +64,7 @@
     background-image: url('../../assets/img/index_icon_address.png');
     height:180px;
     text-align: center;
+    padding-top: 5px;
 }
 .homecontainer .homeSecond .searchdiv{
     width: 95%;
@@ -88,7 +89,6 @@
 }
 .homecontainer .homeSecond .titlespan{
     margin-left: 10px;
-    
     color: white;
 }
 .aaa{
@@ -135,7 +135,6 @@
     display: flex;
 }
 .homecontainer .imgnav2 .imgnav2cell{
-    
     display: inline-block;
     width: 25%;
     margin-top: 10px;
@@ -153,4 +152,140 @@
 }
 .homecontainer .imgnav2 .imgnav2cell img{
     width: 70px;
+}
+.homecontainer .xianshi{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.homecontainer .xianshi .xianshishow{
+    display: flex;
+}
+.homecontainer .xianshi .xianshishow .xianshishowcell{
+    display: inline-block;
+    width: 67px;
+    margin-left: 15px;
+    position: relative;
+}
+.homecontainer .xianshi .xianshishow .xianshishowcell img{
+    width: 100%;
+}
+.homecontainer .xianshi .xianshishow .xianshishowcell p:nth-of-type(1){
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    top:50px;
+    background: rgba(255,87,87,0.6);
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-size: 9px;
+    line-height: 100%;
+    color: white;
+}
+.homecontainer .xianshi .xianshishow .xianshishowcell h3{
+    text-align: center;
+    color: red;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.homecontainer .xianshi .xianshishow .xianshishowcell del{
+    color: black;
+    display: block;
+    text-align: center;
+}
+.homecontainer .appimg{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.homecontainer .lunbotu2 .lunbotu2cell{
+    width: 100%;
+    margin-top: -10px;
+    padding: 10px;
+}
+.homecontainer>h2{
+    font-weight: bolder;
+    text-align: center;
+}
+.homecontainer .dianpu .dianpucell{
+    display: flex;
+    border-top: 1px solid gray;
+    padding: 15px 0;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(1){
+    margin-left: 10px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(1) img{
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    margin-right: 8px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) h2{
+    font-weight: bolder;
+    margin-bottom: 0;
+} 
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .star0{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../assets//img/newStar.png');
+    background-size: 70px 15px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .star1{
+    background-position: 0 1px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .star2{
+    background-position: -14px 1px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .star3{
+    background-position: -28px 1px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .star4{
+    background-position: -42px 1px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .star5{
+    background-position: -56px 1px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .activities{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed gray;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .activities section{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 250px;
+    overflow: hidden;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .activities .spannav{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets//img/index.png');
+    background-size: 30px 300px;
+    background-position: -5px 25px;
+}
+.homecontainer .dianpu .dianpucell>div:nth-of-type(2) .activities .spannav1{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets//img/index.png');
+    background-size: 30px 300px;
+    background-position: -5px 60px;
 }
